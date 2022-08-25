@@ -1,0 +1,24 @@
+
+
+<?php
+session_start();
+ echo $rno=$_SESSION['rndno'];
+ 
+if(isset($_POST['submit'])){
+
+echo $urno = $_POST['otp'];
+if($rno==$urno)
+{
+	
+	echo "Successful";
+	
+}
+
+  else
+  {
+	  echo "Fail";
+  }
+  
+ 
+}
+?>

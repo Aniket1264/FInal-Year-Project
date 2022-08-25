@@ -1,0 +1,19 @@
+
+<?php
+
+$rno="1235";
+$urno="123";
+if($rno==$urno)
+{
+	
+	echo "Successful";
+	
+}
+
+  else
+  {
+	  echo "fail";
+  }
+  
+  
+  ?>
